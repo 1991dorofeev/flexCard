@@ -1,0 +1,86 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(103, 67, 138);
+}
+
+.userCard {
+  margin-top: 100px;
+  width: 420px;
+  height: 420px;
+}
+
+.userInfoContainer {
+  background-image: url(../image/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+  line-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+}
+
+.userInfoContainer > p {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding-top: 300px;
+}
+
+.userInfoContainer > p1 {
+  color: rgb(131, 131, 131);
+}
+
+.userStatContainer {
+  width: 350px;
+  height: 90px;
+  display: flex;
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(167, 167, 167);
+}
+
+.userStatItem1,
+.userStatItem2,
+.userStatItem3 {
+  width: 31%;
+  height: 90px;
+  text-align: center;
+  display: inline-block;
+}
+
+.stat {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.stat > p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stat > p1 {
+  color: rgb(131, 131, 131);
+}
+
+button {
+  width: 280px;
+  height: 80px;
+  background-color: #e648a4;
+  border-radius: 0 0 20px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
